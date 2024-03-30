@@ -10,17 +10,17 @@ img {
 }
 
 header {
-    background: salmon;
+    background: #FFFF;
     width: 100%;
     height: 100px;
 }
 
 #top_header {
     height: 70px;
-    background-color: goldenrod;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    border-bottom: 1px solid black;
 }
 
 #logo {
@@ -31,7 +31,6 @@ header {
     display: flex;
     justify-content: space-evenly;
     gap: 10px;
-    align-items: center;
     align-items: center;
 }
 
@@ -57,7 +56,6 @@ header {
 
 #bottom_header{
     height: 30px;
-    background: greenyellow;
 }
 nav > ul {
     display: flex;
@@ -91,7 +89,7 @@ nav > ul {
 .cards {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px 10px;
+    gap: 25px 10px;
 }
 
 .card {
@@ -152,7 +150,7 @@ nav > ul {
 }
 
 footer {
-    height: 350px;
+    height: 400px;
     width: 100%;
     background: #02ADED;
 }
@@ -168,6 +166,52 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 5%;
+}
+
+.option{
+    padding: 10px 25px;
+    background: #8C8C8C;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    width: 100%;
+}
+
+.option > select {
+    width: 100%;
+    background: none;
+    border: none;
+}
+
+.right_div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+fieldset {
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+fieldset > div > input {
+    width: 100%;
+    padding: 10px 2px;
+    border: none;
+    background: #FFFF;
+}
+
+fieldset > div > button {
+    padding: 4px;
+    border: none;
+    background: #FF6633;
+}
+
+fieldset > div {
+    
+    display: flex;
 }
 
 .bottom_footer {
@@ -207,14 +251,15 @@ footer {
 
 .icon_btn{
     display: flex;
-    justify-content: space-evenly;
+    gap: 10px;
     align-items: center;
     width: 100%;
     height: 100%;
 }
 
 .icon_btn > div {
-    width: 20%;
+    width: 10%;
+    max-height: 100%;
 }
 .mini_logo {
     width: 20%;
